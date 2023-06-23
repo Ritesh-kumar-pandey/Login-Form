@@ -1,0 +1,130 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img {
+    width: 50%;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: 'roboto';
+    color: rgb(77, 77, 70);
+    margin: 10px 0px;
+    font-size: 12px;
+}
+
+.inpu {
+    padding: 10px 0px;
+    outline: none;
+    
+
+}
+
+.inpu:focus {
+    outline: none;
+    border: 2px solid #E5E5E5;
+}
+
+button {
+    margin: 10px 0px;
+    border-radius: 10px;
+    padding: 13px 20px;
+    font-size: 12px;
+    color: aliceblue;
+    background-color: #04C35C;
+    border: none;
+    width: 390px;
+}
+
+button:hover {
+    background-color: #0C964F;
+    cursor: pointer;
+}
+
+.pass {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.pass a {
+    margin-left: 190px;
+    text-decoration: none;
+    font-family: 'roboto';
+}
+
+
+.formm {
+    margin: 90px 110px;
+    
+}
+
+
+
+.Login {
+    font-size:18px;
+    font-family: 'roboto';
+}
+
+.google {
+    color: aliceblue;
+    background-color: #2D3748;
+}
+
+.google:hover {
+    background-color: #535f74;
+}
+
+.newacc {
+    font-family: 'roboto';
+    margin: 140px 80px;
+    font-size: 12px;
+    color: rgb(83, 83, 77);
+}
+
+#emailError {
+    color: red;
+    font-size: small;
+}
+
+#passError {
+    color: red;
+    font-size: small;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .formm{
+        margin-top: 200px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    button{
+        width: auto;
+    }
+    body{
+        overflow: scroll;
+    }
+    
+}

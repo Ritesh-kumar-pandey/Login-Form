@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <script src="validate.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <img src="mountain.jpg" alt="mountain">
+
+        <section class="formm">
+
+            <span style="font-family: roboto; font-size: 12px;">Welcome back</span><br>
+            <span class="Login"><b>Login to your Account</b></span>
+
+            <form id="myform" onsubmit="return validate()">
+
+                <label for="email">Email</label>
+                <input class="inpu" id="email-data" type="email" name="email" placeholder="JhonSnow@gmail.com">
+                <span id="emailError"></span>
+
+                <label for="pass">Password</label>
+                <input class="inpu" id="password-data" type="password" name="pass" placeholder="********">
+                <span id="passError"></span>
+
+                <div class="pass">
+                    
+                    <input type="radio">
+                    <label for="name" style="font-size: 12px ;">Remember me</label>
+                
+                   <a href="#">Forget Password?</a>
+                </div>
+
+
+                <button type="submit"><b>Login Now</b></button>
+                <button class="google">
+                    <div><img src="google.png" style="width: 18px; height: 18px;"><b> Or Sign with google</b>
+                </button>
+                <p class="newacc">Don't have an account?<a href="#">Join us now</a></p>
+    </div>
+
+    </form>
+
+
+
+    </section>
+    </div>
+</body>
+
+</html>
